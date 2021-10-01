@@ -20,6 +20,8 @@ int main(){
 
 int sum(int input[], int n) {
   int s=0;
+  //when size of array is zero we will stop
+  // this is our base case
     if(n==0)
     {
        return 0;
